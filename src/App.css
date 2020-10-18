@@ -1,0 +1,24 @@
+body{
+  background-image: url("https://bsmedia.business-standard.com/media-handler.php?mediaPath=https://bsmedia.business-standard.com/_media/bs/img/article/2018-01/19/full/1516358243-5474.jpg&width=1200");
+}
+.App{
+  margin: auto;
+  width: 50%;
+}
+
+.container{
+  background-color: #3333;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.draggable{
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid black;
+  cursor: move;
+}
+
+.draggable.dragging{
+ opacity: .5;
+}
